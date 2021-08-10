@@ -1,0 +1,6 @@
+.memory-board { 
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 75px;
+  margin: 70px auto;
+} 
