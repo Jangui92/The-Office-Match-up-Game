@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let squareChosenId = []
   let squareWin = []
 
+  // Board function with images set
   const memoryBoard = document.querySelector('.memory-board')
   function squareBoard() {
     for (let i = 0; i < squareArray.length; i++) {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   squareBoard()
 
+  // Square matches
   function squareMatch() {
     let squares = document.querySelectorAll('img')
     const flipOne = squareChosenId[0]
@@ -37,9 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       squares[flipOne].setAttribute('src', 'images/background.jpg')
       squares[flipTwo].setAttribute('src', 'images/background.jpg')
+      alert(`You're such a Toby. Try again`)
     }
     squareChosen = []
-    squareChosen = []
+    squareChosenId = []
     resultDisplay.textContext = squareWin.length
     if (squareWin.length === squareArray.length / 2) {
       resultDisplay.textContent = `You didn't schrute this one!`
@@ -49,11 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // FLIP EVENT
   function flipCard() {
-    let cardId = this.getAttribute('data-id')
-    squareChosen.push(squareArray[cardId].name)
-    squareChosenId.push(cardId)
-    this.setAttribute('src', squareArray[squareArrayId].img)
-    if (cardsChosen.length === 2) {
+    let squareId = this.getAttribute('data-id')
+    squareChosen.push(squareArray[squareId].name)
+    squareChosenId.push(squareId)
+    this.setAttribute('src', squareArray[squareId].img)
+    if (squareChosen.length === 2) {
       setTimeout(squareMatch, 500)
     }
   }
