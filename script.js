@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
       squares[flipTwo].setAttribute('src', 'images/white.png')
       squareWin.push(squareChosen)
     } else {
+      squares[flipOne].setAttribute('src', 'images/background.jpg')
+      squares[flipTwo].setAttribute('src', 'images/background.jpg')
     }
     squareChosen = []
     squareChosen = []
