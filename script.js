@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const squareArray = [
     {
-      square0: 'puppy',
+      name: 'puppy',
       image: 'images/puppytongue.jpg'
     },
-    { square1: 'puppy', image: 'images/puppytongue.jpg' },
-    { square2: 'corgi', image: 'images/corgi.jpg' },
-    { square3: 'corgi', image: 'images/corgi.jpg' }
+    { name: 'puppy', image: 'images/puppytongue.jpg' },
+    { name: 'corgi', image: 'images/corgi.jpg' },
+    { name: 'corgi', image: 'images/corgi.jpg' }
   ]
   squareArray.sort(() => 0.5 - Math.random())
 
@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Square matches
   function squareMatch() {
     let squares = document.querySelectorAll('img')
+
     const flipOne = squareChosenId[0]
     const flipTwo = squareChosenId[1]
     if (squareChosen[0] === squareChosen[1]) {
@@ -50,14 +51,17 @@ document.addEventListener('DOMContentLoaded', () => {
       resultDisplay.textContent = `You didn't schrute this one!`
     }
   }
-  squareMatch()
+  // squareMatch()
 
   // FLIP EVENT
   function flipCard() {
     let squareId = this.getAttribute('data-id')
+    console.log(squareArray[squareId].name)
+
     squareChosen.push(squareArray[squareId].name)
     squareChosenId.push(squareId)
-    this.setAttribute('src', squareArray[squareId].img)
+
+    this.setAttribute('src', squareArray[squareId].image)
     if (squareChosen.length === 2) {
       setTimeout(squareMatch, 500)
     }
