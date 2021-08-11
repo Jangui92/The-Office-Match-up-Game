@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { square1: 'puppy', image: 'images/puppytongue.jpg' }
   ]
-  cardArray.sort(() => 0.5 - Math.random())
+  squareArray.sort(() => 0.5 - Math.random())
 
   const resultDisplay = document.querySelector('#results')
   let squareChosen = []
