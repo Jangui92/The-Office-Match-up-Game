@@ -1,6 +1,17 @@
+
+body {
+  background-color: rgb(226, 189, 140);
+}
 .memory-board { 
+  margin-top:25px;
   display: grid;
   grid-template-columns: repeat(3, auto);
-  width: 75px;
+  width: 400px;
+  height: 300px;
   margin: 70px auto;
+  justify-content: center;
+  box-shadow: 0 0 0 2px white;
+  font-size: 10px;
+  cursor: pointer;
+  justify-content: center;
 } 
