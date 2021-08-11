@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
       square0: 'puppy',
       image: 'images/puppytongue.jpg'
     },
-    { square1: 'puppy', image: 'images/puppytongue.jpg' }
+    { square1: 'puppy', image: 'images/puppytongue.jpg' },
+    { square2: 'corgi', image: 'images/corgi.jpg' },
+    { square3: 'corgi', image: 'images/corgi.jpg' }
   ]
   squareArray.sort(() => 0.5 - Math.random())
 
