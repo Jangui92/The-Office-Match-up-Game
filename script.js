@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // squareMatch()
 
   // FLIP EVENT
+  gameTimer()
   function flipCard() {
     let squareId = this.getAttribute('data-id')
     console.log(squareArray[squareId].name)
@@ -104,3 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 })
+function gameTimer() {
+  let sec = 30
+  let gametimer = setInterval(() => {
+    document.getElementById('time-remaining').innerHTML = '03:' + sec--
+    if (sec < 0) {
+      clearInterval(gameTimer)
+    }
+  }, 2000)
+}
