@@ -12,5 +12,8 @@ A memory match up card game, with nostalgic memes and characters from The Office
 ## Game Functionality
 This memory game is going to be a little similar to tic tac toe because it runs on a grid. I will be using if else statements for matching each picture as a pair so that when the player selects matching pictures the pictures will disappear and be added as points. If the player doesn't select matching pictures the pictures will flip back over.
 
+## Trello Board
+I organized my ideas and what I want to execute priority-wise with my game. [trello board](https://trello.com/b/aA5vnCAV/mystery-game)
+
 ## CREDITS
 I will be crediting [duckduckgo.com](http://duckduckgo.com) for my picture source. They provide concise sizes of photos that I need to make the pictures uniformed on the grid.
