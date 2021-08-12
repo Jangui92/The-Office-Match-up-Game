@@ -5,15 +5,11 @@ text-align: center;
 display: flex;
 }
 #results{
- 
 flex-direction: flex-start;
 }
 .memory-board { 
   margin-top:25px;
-  /* display: grid;
-  grid-template-row: repeat(8, auto) */
-  /* grid-template-columns: repeat(3, auto); */
-  width: 400px;
+  width: 800px;
   height: 300px;
   margin: 70px auto;
   justify-content: center;

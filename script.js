@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { name: 'assistant', image: 'images/assistanttothe.jpeg' },
     { name: 'bearsbeets', image: 'images/bearsbeets.png' },
-    { name: 'bears', image: 'images/bearsbeets.png' },
+    { name: 'bearsbeets', image: 'images/bearsbeets.png' },
     { name: 'boom', image: 'images/boomroasted.jpeg' },
     { name: 'boom', image: 'images/boomroasted.jpeg' },
     { name: 'stutter', image: 'images/didistutter.jpeg' },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let squareChosen = []
   let squareChosenId = []
   let squareWin = []
-
+  console.log(resultDisplay)
   // Board function with images set
   const memoryBoard = document.querySelector('.memory-board')
   function squareBoard() {
