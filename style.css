@@ -1,9 +1,12 @@
 
 body {
   background-color: rgb(226, 189, 140);
+text-align: center;
+display: flex;
 }
-.body{
-  background-color: blue;
+#results{
+ 
+flex-direction: flex-start;
 }
 .memory-board { 
   margin-top:25px;
