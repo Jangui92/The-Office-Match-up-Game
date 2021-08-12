@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ]
   squareArray.sort(() => 0.5 - Math.random())
 
-  const resultDisplay = document.querySelector('#results')
+  let resultDisplay = document.querySelector('#results')
   let squareChosen = []
   let squareChosenId = []
   let squareWin = []
@@ -69,24 +69,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // Square matches
   function squareMatch() {
     let squares = document.querySelectorAll('img')
-
     const flipOne = squareChosenId[0]
     const flipTwo = squareChosenId[1]
     if (squareChosen[0] === squareChosen[1]) {
-      alert(`You found a match!`)
+      alert(`You found a match!PERFECTENSCHLAG!`)
       squares[flipOne].setAttribute('src', 'images/blackback.jpeg')
       squares[flipTwo].setAttribute('src', 'images/blackback.jpeg')
       squareWin.push(squareChosen)
     } else {
       squares[flipOne].setAttribute('src', 'images/dundermifflin.jpeg')
       squares[flipTwo].setAttribute('src', 'images/dundermifflin.jpeg')
-      alert(`You're such a Toby. Try again`)
+      alert(`EUGH You're WORSE than TOBY. Try again.`)
     }
     squareChosen = []
     squareChosenId = []
-    resultDisplay.textContext = squareWin.length
+    resultDisplay.innerText = squareWin.length
     if (squareWin.length === squareArray.length / 2) {
-      resultDisplay.textContent = `You didn't schrute this one!`
+      resultDisplay.innerText = `You didn't SCHRUTE this one!`
     }
   }
   // squareMatch()

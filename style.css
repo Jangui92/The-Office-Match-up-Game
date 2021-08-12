@@ -1,9 +1,19 @@
 
 body {
-background-image: linear-gradient(to right, rgb(17, 16, 16) , rgb(69, 69, 209));
+background-image: radial-gradient(rgb(17, 16, 16) , rgb(69, 69, 209));
 text-align: center;
+color: white;
 }
-
+html{
+  min-height: 100vh;
+}
+ul {
+  list-style: none;
+}
+h2{
+  color:white;
+  font-family: Arial;
+}
 .memory-board { 
   margin-top:100px;
   width: 800px;

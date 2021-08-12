@@ -15,5 +15,5 @@ This memory game is going to be a little similar to tic tac toe because it runs 
 ## Trello Board
 I organized my ideas and what I want to execute priority-wise with my game. [trello board](https://trello.com/b/aA5vnCAV/mystery-game)
 
-## CREDITS
+## Credits
 I will be crediting [duckduckgo.com](http://duckduckgo.com) for my picture source. They provide concise sizes of photos that I need to make the pictures uniformed on the grid.
