@@ -1,12 +1,30 @@
 document.addEventListener('DOMContentLoaded', () => {
   const squareArray = [
     {
-      name: 'puppy',
-      image: 'images/puppytongue.jpg'
+      name: 'dwightdummy',
+      image: 'images/dwightdummymask.png'
     },
-    { name: 'puppy', image: 'images/puppytongue.jpg' },
-    { name: 'corgi', image: 'images/corgi.jpg' },
-    { name: 'corgi', image: 'images/corgi.jpg' }
+    { name: 'dwightdummy', image: 'images/dwightdummymask.png' },
+    { name: 'prisionmike', image: 'images/prisonmike.jpeg' },
+    { name: 'prisionmike', image: 'images/prisonmike.jpeg' }
+    // {name:,image:}, {name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:},
+    // {name:,image:},{name:,image:}
   ]
   squareArray.sort(() => 0.5 - Math.random())
 
@@ -20,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function squareBoard() {
     for (let i = 0; i < squareArray.length; i++) {
       let squares = document.createElement('img')
-      squares.setAttribute('src', 'images/background.jpg')
+      squares.setAttribute('src', 'images/dundermifflin.jpeg')
       squares.setAttribute('data-id', i)
       squares.addEventListener('click', flipCard)
       memoryBoard.appendChild(squares)
@@ -36,12 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const flipTwo = squareChosenId[1]
     if (squareChosen[0] === squareChosen[1]) {
       alert(`You found a match!`)
-      squares[flipOne].setAttribute('src', 'images/white.png')
-      squares[flipTwo].setAttribute('src', 'images/white.png')
+      squares[flipOne].setAttribute('src', 'iimages/blackback.jpeg')
+      squares[flipTwo].setAttribute('src', 'images/blackback.jpeg')
       squareWin.push(squareChosen)
     } else {
-      squares[flipOne].setAttribute('src', 'images/background.jpg')
-      squares[flipTwo].setAttribute('src', 'images/background.jpg')
+      squares[flipOne].setAttribute('src', 'images/dundermifflin.jpeg')
+      squares[flipTwo].setAttribute('src', 'images/dundermifflin.jpeg')
       alert(`You're such a Toby. Try again`)
     }
     squareChosen = []
