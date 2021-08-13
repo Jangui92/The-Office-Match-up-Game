@@ -1,3 +1,5 @@
+let memoryboard = document.querySelector('.memory-board')
+console.log(memoryboard)
 document.addEventListener('DOMContentLoaded', () => {
   const squareArray = [
     {
@@ -88,7 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
       resultDisplay.innerText = `You didn't SCHRUTE this one!`
     }
   }
-  // squareMatch()
 
   // FLIP EVENT
   gameTimer()
@@ -106,11 +107,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 })
 function gameTimer() {
-  let sec = 30
-  let gametimer = setInterval(() => {
-    document.getElementById('time-remaining').innerHTML = '03:' + sec--
-    if (sec < 0) {
-      clearInterval(gameTimer)
+  let sec = 120
+  let timer = setInterval(() => {
+    document.getElementById('time-remaining').innerHTML = sec
+    sec--
+    if (sec <= -1) {
+      clearInterval(timer)
+      document.querySelector('.memory-board').style.display = 'none'
+      resultDisplay.innerText = `You didn't SCHRUTE this one!`
     }
   }, 2000)
 }
