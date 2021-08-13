@@ -1,6 +1,7 @@
 # The Office Match Up Game
-
-
+### 08/13/2021
+###### *By: Janay Anguiano*
+[TheOfficeGameLink](https://github.com/Jangui92/The-Office-Match-up-Game) | [GitHub](https://github.com/Jangui92) | [LinkedIn](https://www.linkedin.com/in/janay-anguiano-778717215/)
 ## Game Detail Summary
 A memory match up card game, with nostalgic memes and characters based on "The Office" tv show. 
 
@@ -17,4 +18,11 @@ For this memory game I prepared my array of squares ad assigned them images and 
 I organized my ideas and what I want to execute priority-wise with my game. [trello board](https://trello.com/b/aA5vnCAV/mystery-game)
 
 ## Credits
-I will be crediting [duckduckgo.com](http://duckduckgo.com) for my picture source. They provide concise sizes of photos that I need to make the pictures uniformed on the grid. I used a google font called 'Special Elite' for my h2 element [Special Elite Google Font](https://fonts.google.com/specimen/Special+Elite#standard-styles)
+* The Office Images: [duckduckgo.com](http://duckduckgo.com) 
+* Google [Title Font](https://fonts.google.com/specimen/Special+Elite#standard-styles)
+* Youtube [Memory Game Inspiration](https://www.youtube.com/watch?v=tjyDOHzKN0w)
+
+## Task List
+- [ ] Add game sounds
+- [ ] Add another level
+- [x] Update Style 
