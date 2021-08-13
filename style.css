@@ -7,15 +7,13 @@ color: white;
 html{
   min-height: 100vh;
 }
-.game-container {
-  grid-column: 3/4;
-}
 ul {
   list-style: none;
 }
 .welcome-font {
   font-size: 1rem;
 }
+
 h2{
   color:white;
   font-family: 'Special Elite', cursive;
@@ -29,4 +27,5 @@ h2{
   height: 500px;
   margin: 70px auto;
   cursor: pointer;
+  flex-wrap: wrap;
 } 

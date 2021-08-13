@@ -1,5 +1,3 @@
-let memoryboard = document.querySelector('.memory-board')
-console.log(memoryboard)
 document.addEventListener('DOMContentLoaded', () => {
   const squareArray = [
     {
@@ -48,13 +46,14 @@ document.addEventListener('DOMContentLoaded', () => {
     { name: 'idiot', image: 'images/youreanidiot.jpeg' },
     { name: 'idiot', image: 'images/youreanidiot.jpeg' }
   ]
+  // Randomize Function
   squareArray.sort(() => 0.5 - Math.random())
 
   let resultDisplay = document.querySelector('#results')
   let squareChosen = []
   let squareChosenId = []
   let squareWin = []
-  console.log(resultDisplay)
+
   // Board function with images set
   const memoryBoard = document.querySelector('.memory-board')
   function squareBoard() {
@@ -106,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 })
+// Game Timer Function
 function gameTimer() {
   let sec = 120
   let timer = setInterval(() => {

@@ -2,15 +2,16 @@
 
 
 ## Game Detail Summary
-A memory match up card game, with nostalgic memes and characters based off of the The Office tv show. 
+A memory match up card game, with nostalgic memes and characters based on "The Office" tv show. 
 
 ## Game Rules
 1. Player chooses two squares at a time to see if they match. If there is a match pictures disappear, if there is no match pictures flip back in place.
-2. Points accumulate according to players matches. Game automatically resets after all matches are found.
+2. Points accumulate according to players matches. Each pair is worth 10 points.
+3. Game runs on a 2 minute timer. After timer stops board will disappear to disable players from continuing the game. 
 3. Player has to match all 20 pairs in order to have a successful game.
 
 ## Game Functionality
-This memory game is going to be a little similar to tic tac toe because it runs on a grid. I will be using if else statements for matching each picture as a pair so that when the player selects matching pictures the pictures will disappear and be added as points. If the player doesn't select matching pictures the pictures will flip back over.
+For this memory game I prepared my array of squares ad assigned them images and did two of each so that they could be matches. I created functions for the board that will show a default picture before the player begins the game and another default picture for after the player finds a match and the squares disappear. The board contains a for loop to loop through the array and assign all the squares a default picture. Using an if else statement I set up my match function for when players find a match and what will happen if the squares do not match along with if player finds all the matches. I created a function to have the squares flip when you select them and last but not least a timer function to time the game and remove squares when time is up.
 
 ## Trello Board
 I organized my ideas and what I want to execute priority-wise with my game. [trello board](https://trello.com/b/aA5vnCAV/mystery-game)
