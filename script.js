@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
     { name: 'ignorant', image: 'images/dwightyouignorant.png' },
     { name: 'electric', image: 'images/electriccity.jpeg' },
     { name: 'electric', image: 'images/electriccity.jpeg' },
-    { name: 'beyonce', image: 'images/iambeyonce.jpeg' },
-    { name: 'beyonce', image: 'images/iambeyonce.jpeg' },
     { name: 'jimasd', image: 'images/jimasdwight.png' },
     { name: 'jimasd', image: 'images/jimasdwight.png' },
     { name: 'illkillyou', image: 'images/michaelillkillyou.png' },
@@ -59,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function squareBoard() {
     for (let i = 0; i < squareArray.length; i++) {
       let squares = document.createElement('img')
-      squares.setAttribute('src', 'images/dundermifflin.jpeg')
+      squares.setAttribute('src', 'images/officelogo.png')
       squares.setAttribute('data-id', i)
       squares.addEventListener('click', flipCard)
       memoryBoard.appendChild(squares)
@@ -78,8 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
       squares[flipTwo].setAttribute('src', 'images/blackback.jpeg')
       squareWin.push(squareChosen)
     } else {
-      squares[flipOne].setAttribute('src', 'images/dundermifflin.jpeg')
-      squares[flipTwo].setAttribute('src', 'images/dundermifflin.jpeg')
+      squares[flipOne].setAttribute('src', 'images/officelogo.png')
+      squares[flipTwo].setAttribute('src', 'images/officelogo.png')
       alert(`EUGH You're WORSE than TOBY. Try again.`)
     }
     squareChosen = []

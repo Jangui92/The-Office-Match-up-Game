@@ -1,6 +1,6 @@
 
 body {
-background-image: linear-gradient(rgb(171, 83, 221) , rgb(36, 37, 37));
+background-image: linear-gradient(rgb(89, 194, 243) , rgb(223, 238, 238));
 text-align: center;
 color: white;
 }
@@ -19,7 +19,7 @@ h2{
   font-family: 'Special Elite', cursive;
   font-size: 4em;
   text-stroke: 5px;
-  text-shadow: -4px 4px 4px #3643f0;
+  text-shadow: -4px 4px 4px #f0b536;
 }
 .memory-board { 
   margin-top:100px;
