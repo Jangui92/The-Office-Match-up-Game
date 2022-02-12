@@ -1,8 +1,11 @@
 
 body {
-background-image: linear-gradient(rgb(89, 194, 243) , rgb(223, 238, 238));
+background-image: url('images/battlestargalactica.jpg');
+/* linear-gradient(rgb(89, 194, 243) , rgb(223, 238, 238)); */
 text-align: center;
 color: white;
+background-repeat: no-repeat;
+background-size:auto;
 }
 html{
   min-height: 100vh;
