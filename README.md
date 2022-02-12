@@ -26,3 +26,7 @@ I organized my ideas and what I want to execute priority-wise with my game. [tre
 - [ ] Add game sounds
 - [ ] Add another level
 - [x] Update Style 
+- [ ] Update tiles style 3D
+- [ ] Mobile version Update
+- [ ] update home Page
+- [ ] update font 
