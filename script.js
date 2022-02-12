@@ -1,3 +1,4 @@
+// Run in terminal with <open index.html>
 document.addEventListener('DOMContentLoaded', () => {
   const squareArray = [
     {
