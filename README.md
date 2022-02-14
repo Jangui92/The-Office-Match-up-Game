@@ -21,6 +21,7 @@ I organized my ideas and what I want to execute priority-wise with my game. [tre
 * The Office Images: [duckduckgo.com](http://duckduckgo.com) 
 * Google [Title Font](https://fonts.google.com/specimen/Special+Elite#standard-styles)
 * Youtube [Memory Game Inspiration](https://www.youtube.com/watch?v=tjyDOHzKN0w)
+* BattleStar Galactica Imge: [Mocah.org](https://mocah.org/515792-battlestar-galactica.html#google_vignette)
 
 ## Task List
 - [ ] Add game sounds
@@ -28,5 +29,5 @@ I organized my ideas and what I want to execute priority-wise with my game. [tre
 - [x] Update Style 
 - [ ] Update tiles style 3D
 - [ ] Mobile version Update
-- [ ] update home Page
+- [x] update home Page
 - [ ] update font 
