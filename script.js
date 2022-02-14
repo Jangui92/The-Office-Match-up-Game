@@ -108,8 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function gameTimer() {
   let sec = 120
   let timer = setInterval(() => {
-    document.getElementById('time-remaining').innerHTML = sec
-    sec--
+    document.getElementById('time-remaining').innerHTML = sec--
     if (sec <= -1) {
       clearInterval(timer)
       document.querySelector('.memory-board').style.display = 'none'
