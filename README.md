@@ -22,6 +22,7 @@ I organized my ideas and what I want to execute priority-wise with my game. [tre
 * Google [Title Font](https://fonts.google.com/specimen/Special+Elite#standard-styles)
 * Youtube [Memory Game Inspiration](https://www.youtube.com/watch?v=tjyDOHzKN0w)
 * BattleStar Galactica Imge: [Mocah.org](https://mocah.org/515792-battlestar-galactica.html#google_vignette)
+* More Font [fontspace.com](https://www.fontspace.com/category/futuristic,neon)
 
 ## Task List
 - [ ] Add game sounds
