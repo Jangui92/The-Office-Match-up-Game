@@ -25,10 +25,10 @@ I organized my ideas and what I want to execute priority-wise with my game. [tre
 * More Font [fontspace.com](https://www.fontspace.com/category/futuristic,neon)
 
 ## Task List
+- [x] update home Page
 - [ ] Add game sounds
 - [ ] Add another level
 - [ ] Update tiles style 3D
 - [ ] Mobile version Update
-- [x] update home Page
 - [ ] update font 
 - [ ] Deploy on Vercel
